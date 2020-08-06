@@ -16,8 +16,8 @@ public class Reveille {
 
     public void play() throws IOException, LineUnavailableException, InterruptedException {
         this.clip.open(this.stream);
-        clip.start();
+        this.clip.start();
         Thread.sleep(clip.getMicrosecondLength()/1000);
-        clip.close();
+        this.clip.close();
     }
 }

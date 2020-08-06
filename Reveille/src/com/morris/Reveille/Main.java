@@ -18,7 +18,6 @@ package com.morris.Reveille;
 public class Main {
     public static void main(String[] args) {
         ScheduledRunner reveille = new ScheduledRunner();
-        /* Wakey wakey eggs and bakey */
         reveille.reveille();
     }
 }
